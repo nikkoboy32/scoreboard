@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <main>
+        <div class="scoreboard_container">
+            <span class="shotclock_violation">SHOTCLOCK VIOLATION</span>
+            <div class="shotclock_con">
+                <h4>ShotClock: 
+                    <span class="shotclock">24</span>
+                </h4>
+                
+            </div>
+            <div class="home">
+                <h2>Home</h2>
+                <span class="lead home_lead">Leading</span>
+                <span class="score home_score">0</span>
+                <div class="score_btns">
+                    <button class="score_btn home_btn" data-id="1">+1</button>
+                    <button class="score_btn home_btn" data-id="2">+2</button>
+                    <button class="score_btn home_btn" data-id="3">+3</button>
+                </div>
+            </div>
+            
+            <div class="guest">
+                <h2>Guest</h2>
+                <span class="lead guest_lead">Leading</span>
+                <span class="score guest_score">0</span>
+                <div class="score_btns">
+                    <button class="score_btn guest_btn" data-id="1">+1</button>
+                    <button class="score_btn guest_btn" data-id="2">+2</button>
+                    <button class="score_btn guest_btn" data-id="3">+3</button>
+                </div>
+            </div>
+            <div class="reset_button">
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
